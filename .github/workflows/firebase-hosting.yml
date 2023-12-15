@@ -27,3 +27,4 @@ jobs:
           firebase deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FIREBASE_PROJECT_ALIAS: uzo-ebube
